@@ -1,0 +1,29 @@
+<div class="donation-grid">
+  {{ .Inner }}
+</div>
+
+<style>
+.donation-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 250px));
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.donation-grid > * {
+  display: flex;
+  justify-content: center;
+}
+
+.donation-grid .donation-btn {
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  .donation-grid {
+    grid-template-columns: minmax(0, 250px);
+  }
+}
+</style>

@@ -1,0 +1,27 @@
+<!--
+Put this file in /layouts/shortcodes/gallery.html
+Documentation and licence at https://github.com/liwenyip/hugo-easy-gallery/
+-->
+<!-- count how many times we've called this shortcode; load the css if it's the first time -->
+{{- if not ($.Page.Scratch.Get "figurecount") }}<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />{{ end }}
+{{- $.Page.Scratch.Add "figurecount" 1 }}
+
+<div class="gallery caption-position-{{ with .Get "caption-position" | default "bottom" }}{{.}}{{end}} caption-effect-{{ with .Get "caption-effect" | default "slide" }}{{.}}{{end}} hover-effect-{{ with .Get "hover-effect" | default "zoom" }}{{.}}{{end}} {{ if ne (.Get "hover-transition") "none" }}hover-transition{{end}}" itemscope itemtype="http://schema.org/ImageGallery">
+    {{ $images := (.Page.Resources.Match (printf "img/%s/*" (.Get "dir"))) }}
+    {{ with $images }}
+        {{ range . }}
+            {{ $resized := .Fill "256x256 q95 Center" }}
+            <div class="box">
+                <figure class="gallery_{{ $.Params.dir }}" data-size="{{ .Width }}x{{ .Height }}" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                    <div class="img" style="background-image: url('{{ $resized.Permalink }}');" >
+                        <img itemprop="thumbnail" src="{{ $resized.Permalink }}" {{ if (isset .Params "caption") }}alt="{{ .Params.caption }}"{{end}} />
+                    </div>
+                    <figcaption><p>{{ .Params.caption }}</p></figcaption>
+                    <a href="{{ .Permalink }}" itemprop="contentUrl"></a>
+                </figure>
+            </div>
+        {{ end }}
+    {{- else -}}
+        {{ .Inner }}
+    {{- end }}
+</div>
