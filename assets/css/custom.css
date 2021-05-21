@@ -1,0 +1,16 @@
+.hero-area {
+    height: 180px;
+    background-position: center center;
+}
+
+.hero-area:before {
+    background: unset;
+}
+
+.section {
+    padding: 50px 0px 50px 0px;
+}
+
+.social-icon {
+    padding: 0px;
+}

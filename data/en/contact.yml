@@ -1,0 +1,20 @@
+contact:
+  enable: true
+  title: Contact
+  subtitle: Contact Details
+  content: "esk8.news forum: https://forum.esk8.news/u/zippy"
+
+  contact_list: # themify icon pack : https://themify.me/themify-icons
+    - icon: ti-instagram
+      info: "[@riddimrider1](https://instagram.com/riddimrider1)"
+    - icon: ti-reddit
+      info: "[/u/riddimrider1](https://reddit.com/u/riddimrider1)"
+
+  contact_form:
+    enable: true
+    form_action: "https://formspree.io/f/mgerabdn" # contact form works with https://formspree.io
+    name: "Your Name"
+    email: "Your Email"
+    subject: "Subject"
+    message: "Message"
+    submit: "Submit"

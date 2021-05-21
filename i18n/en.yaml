@@ -1,0 +1,16 @@
+- id: blogTitle
+  translation: Articles
+- id: readMore
+  translation: Read More
+- id: viewAllPost
+  translation: View All Posts
+- id: share
+  translation: Share
+- id: aboutAuthor
+  translation: About Author
+- id: authorsPosts
+  translation: Author's Posts
+- id: articles
+  translation: Articles
+- id: contact
+  translation: Contact
