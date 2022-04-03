@@ -1,0 +1,108 @@
+  - src: img/1/01-ready-the-board.jpg
+    params:
+      caption: "The board stripped of grip tame, ready for installation."
+  - src: img/1/02-footpad-distance-front.jpg
+    params:
+      caption: ""
+  - src: img/1/03-footpad-distance-back.jpg
+    params:
+      caption: ""
+  - src: img/1/04-aligning-pint-delete.jpg
+    params:
+      caption: ""
+  - src: img/1/05-marking-holes.jpg
+    params:
+      caption: ""
+  - src: img/1/06-knife-cross.jpg
+    params:
+      caption: "Hole marked with a marking knife on the sensor plastic."
+  - src: img/1/07-marked-and-punched.jpg
+    params:
+      caption: "Hole marked and punched on the back pad."
+  - src: img/2/01-measure-the-nut.jpg
+    params:
+      caption: "The outer diameter of the nut is 7.7mm, a 7mm drill bit will make a hole just the right size to press the nut into."
+  - src: img/2/01-nut-thickness.jpg
+    params:
+      caption: "The thickness of hte nut is the depth of our hole."
+  - src: img/2/03-drill-bit.jpg
+    params:
+      caption: "7mm wood drill bit."
+  - src: img/2/04-drill-bit-tip.jpg
+    params:
+      caption: "The wood drill bit is guided by the pointy tip, this is the maximum size of a pilot hole that will guide the bit accurately."
+  - src: img/2/05-drilling-pilot-hole.jpg
+    params:
+      caption: "We've marked the holes from the top, but drill the inset holes for the nuts from the bottom. Here I'm drilling a pilot hole from the top using a 2mm bit, so that I can then drill the nut holes from the bottom."
+  - src: img/2/06-measure-depth-for-nut-inset.jpg
+    params:
+      caption: "Measuring the depth of the inset."
+  - src: img/2/07-inset-hole.jpg
+    params:
+      caption: "Inset hole drilled. The bottom is a bit angled, for best clean up with a small chisel or a knife."
+  - src: img/2/08-inset-hole-bottom-flattened.jpg
+    params:
+      caption: "Inset hole bottom cleaned up."
+  - src: img/2/09-drilling-screw-hole.jpg
+    params:
+      caption: "Drilling the final hole. I believe this was a 4.5mm drill bit."
+  - src: img/2/10-final-hole.jpg
+    params:
+      caption: "Final hole from the bottom."
+  - src: img/2/11-pushing-nut-in.jpg
+    params:
+      caption: "Pushing in the nut by screwing in a screw."
+  - src: img/2/12-nut-pushed-in.jpg
+    params:
+      caption: "Nut all the way in. They hold just fine like this, no other fixation needed."
+  - src: img/2/13-tabs-attached.jpg
+    params:
+      caption: "All four tabs in place."
+  - src: img/3/01-fender-on.jpg
+    params:
+      caption: "Test-fitting the fender."
+  - src: img/3/02-mark-where-to-cut.jpg
+    params:
+      caption: "Marking where to cut the sensor."
+  - src: img/3/03-cut-square-to-screw-hole.jpg
+    params:
+      caption: "Cutting the strip of the sensor right towards the screw hole."
+  - src: img/3/04-start-peeling-the-strip.jpg
+    params:
+      caption: "Peeling off the strip."
+  - src: img/3/05-peel-off-the-strip.jpg
+    params:
+      caption: "Peeling off the strip."
+  - src: img/3/06-footpad-cleaned-up.jpg
+    params:
+      caption: "The strip peeled off and pad cleaned with lacquer thinner."
+  - src: img/4/01-mark-the-cutout.jpg
+    params:
+      caption: "Marking a line to which to shave off the front footpad, from the bottom along the 3D-printed connector cover."
+  - src: img/4/02-cutout-marked.jpg
+    params:
+      caption: "Curve of the connector cover marked."
+  - src: img/4/03-making-the-cutout.jpg
+    params:
+      caption: "Using a spokeshave to remove the material, a power grinder or a rasp will do the job as well."
+  - src: img/4/04-cutout.jpg
+    params:
+      caption: "The curve nicely shaved off."
+  - src: img/5/01-cut-griptape.jpg
+    params:
+      caption: "Cutting new grip tape to line up with the fender using a beater knife."
+  - src: img/5/02-peel-off-front-part.jpg
+    params:
+      caption: "Peeling off the front part of the grip tape."
+  - src: img/5/03-line-up-griptape.jpg
+    params:
+      caption: "The front part of the grip tape lined up and stuck down."
+  - src: img/5/04-peel-off-and-lay-down.jpg
+    params:
+      caption: "Pulling out the backing paper and sticking down the rest of the grip tape."
+  - src: img/5/05-front-grip-on.jpg
+    params:
+      caption: "Front footpad with new grip tape and sanded for new finish application."
+  - src: img/5/06-board-without-fender.jpg
+    params:
+      caption: "The board is finished."
